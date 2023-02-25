@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "arc":"url('/src/assets/images/arc-reactor-edited.png')"
+      }
+    },
   },
   plugins: [],
 }
